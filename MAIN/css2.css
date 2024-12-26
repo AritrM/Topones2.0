@@ -1,0 +1,120 @@
+a:link {
+    color: rgb(22, 197, 220);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(218, 32, 162);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 255, 145);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+body{
+  text-align: center;
+  background-image: url(https://i.giphy.com/jaOXKCxtBPLieRLI0c.webp);
+}
+
+  p {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .style1 {
+    text-align: center;
+  }
+  .right {
+    text-align: right;
+  }
+  button {
+    color: yellow;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: solid yellow 3px;
+    padding: 16px 16px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    size: 10px;
+  }
+  /*#bg {
+    background-image: linear-gradient(to bottom right, rgb(222, 102, 4), white, green);
+  }*/
+  fieldset{
+    border-radius: 21px;
+  }
+  h1,h2,h3,.rainbow{
+    color: white;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+    background-image: url(imgs/240_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+      .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: transparent;
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnJoYzNoc2F2a2x0aG5raW9mdXBvZTdmeTE2c3JzaHp2M2lzMHo2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2aQS3AHfvvfIkSdbFM/giphy.webp);
+    background-clip: text;
+  }
+
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  } 
+.rainbow {
+  font-size: 20px;
+}
+.Hfont {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.SHfont {
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+span#menuicon {
+
+  color: white;
+  
+}

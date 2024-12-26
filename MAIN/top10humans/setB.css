@@ -1,0 +1,26 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+div h2 {
+    color: aqua;
+}
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 19%;
+}
+div#A {
+    display: none;
+}
+fieldset#menu {
+    display: none;
+    
+}
+@media screen {
+    
+}

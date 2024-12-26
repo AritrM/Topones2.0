@@ -1,0 +1,32 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+div h2 {
+    color: aqua;
+    font-weight: bold;
+}
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 19%;
+}
+div#B {
+    display: none;
+}
+fieldset#menu {
+    border-radius: 2%;
+    background-color: rgb(172, 168, 168);
+    float: right;
+    border-width: 1ic;
+    
+}
+body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+  }

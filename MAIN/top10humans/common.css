@@ -1,0 +1,40 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+h2.col {
+    color: aqua;
+    font-weight: bold;
+}
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+img {
+    float: right;
+    width: 30%;
+    height: auto;
+}
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+div.head {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+div#B {
+    display: none;
+}
+fieldset#menu {
+    border-radius: 2%;
+    background-color: rgb(172, 168, 168);
+    float: right;
+    border-width: 1ic;
+    
+}
+body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+  }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>
+Top Ones
+    </title>
+    <link id="css" rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="prefetch" href="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnJoYzNoc2F2a2x0aG5raW9mdXBvZTdmeTE2c3JzaHp2M2lzMHo2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2aQS3AHfvvfIkSdbFM/giphy.webp">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Playwrite+CO+Guides&family=Playwrite+HR+Lijeva+Guides&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="icon" href="imgs/logo.jpg" type="image/icon">
+   <body>
+    <span id="menuicon" style="font-size:30px;cursor:pointer;float: left;" onclick="openNav()">&#9776;</span> 
+    <u><h1 class="Hfont">Top Ones</h1></u>
+        
+        <h3 class="SHfont">A Site of The Tops for The Tops</h3>
+
+   </body>
+  
+</head>
+    <body id="bg">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="mailto:aritra.mahato@outlook.com">Contact</a>
+        <a href="https://chithi.me/topones">Feedback</a>
+        <a onclick="change()">Switch Style</a>
+        <a href="" class="split" style="color: crimson; nav-down: auto;">&copy; Topones, Ltd.</a>
+      </div>
+
+
+  <form class="center"><fieldset>
+  <marquee><div class="rainbow">
+N.B: Hi there! Your help is needed to create another top ten lists of songs. Mail your suggestions.
+
+</div></marquee>
+</fieldset>
+</form>
+ <form> 
+  <fieldset>
+ <legend><h2>Our editions:</h2></legend>
+<p><a href="top10birds/index.html" onclick="msg()">1.Top 10 Birds</a></p>
+<p><a href="top10fishes/Index.html" onclick="msg()">2.Top 10 Fishes</a></p>
+<p><a href="top10animals/Index.html" onclick="msg()">3.Top 10 Animals</a></p>
+<p><a href="top10trees/Index.html" onclick="msg()">4.Top 10 Trees</a></p>
+<p><a href="top10humans/Index.html" onclick="msg()">5.Top 10 Humans</a></p>
+<p><a href="top10films/Index.html" onclick="msg()">6.Top 10 Movies</a></p>
+</fieldset>
+</form>
+
+<br>
+<div style="color: crimson;">&copy; Topones, Ltd.
+</div>
+
+<script>
+
+  function msg(){
+      alert("Welcome!")
+  }
+  
+  function change() {
+    let theme = document.getElementById('css');
+
+    if (theme.getAttribute('href') == 'mystyle.css')
+      {
+    theme.setAttribute ('href', 'css2.css') ;
+      }
+  else{
+    theme.setAttribute ('href', 'mystyle.css') ;
+  }
+  }
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0px";
+}
+</script>
+    </body>
+</html>

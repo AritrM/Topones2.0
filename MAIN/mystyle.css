@@ -1,0 +1,127 @@
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  .rainbow {
+    font-size: 20px;
+    background: repeating-linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+
+  }
+  button {
+    background:linear-gradient(to right, rgb(119, 189, 235),rgb(156, 247, 239));
+    padding: 8px 4px;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    border-radius: 8px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(69, 139, 139);
+  }
+  fieldset{
+    border-radius: 21px;
+  }
+  .SHfont {
+    font-family: "Playwrite HR Lijeva Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .Hfont {
+    font-family: "Playwrite CO Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  legend {
+    /*color: transparent;
+    -webkit-background-clip: text;
+    h2 {
+      border: 2px solid antiquewhite;
+    }*/
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(6, 6, 226),rgb(0, 145, 255),rgb(7, 7, 218));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #17b8b5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+      .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: yellow;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  } 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
