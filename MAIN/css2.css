@@ -65,11 +65,12 @@ body{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 1;   
     top: 0;
     left: 0;
     
     background-image: url(imgs/240_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg);
+    filter: blur(8px);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
